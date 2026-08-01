@@ -1,0 +1,19 @@
+# Understory
+
+> Understory is an insurtech company in Madison, Wisconsin (founded 2012) that combines its own network of ground-truth "Dot" weather sensors with a proprietary weather risk model to underwrite parametric insurance against severe weather — including hail coverage for automotive dealership open lots and agricultural weather risk. Payouts are triggered automatically when sensors detect qualifying weather, bypassing the traditional claims process. Understory publishes no public API, developer portal, or documentation; its UnderstoryOS platform (broker management, pricing/quoting, automated weather-based claims) is offered to insurance partners, not as a self-service developer product.
+
+## Company
+
+- [Website](https://understoryweather.com/): Marketing site for Understory's climate-risk insurance products
+- [Platform](https://understoryweather.com/platform): UnderstoryOS — unified digital insurance platform for climate risk (Dot sensors, 1x1km climate models, automated claims)
+- [About](https://understoryweather.com/about): Company background — founded 2012, Madison WI, backed by True Ventures
+- [Terms of Service](https://understoryweather.com/terms): Terms and conditions
+- [Privacy Policy](https://understoryweather.com/privacy): Privacy policy
+
+## APIs
+
+No public APIs are published. Contact info@understoryweather.com for partnership inquiries.
+
+## Optional
+
+- [API Evangelist profile](https://raw.githubusercontent.com/api-evangelist/understory/refs/heads/main/apis.yml): APIs.json profile for Understory in the API Evangelist network

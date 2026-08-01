@@ -1,21 +1,43 @@
 aid: understory
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/understory.png
 name: Understory
-description: 'Understory is a company surfaced as a portfolio company of true-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: climate. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Understory is an insurtech company headquartered in Madison, Wisconsin
+  (founded 2012) that combines its own network of ground-truth Dot weather sensors
+  with a proprietary weather risk model to underwrite parametric insurance against
+  severe weather, including hail coverage for automotive dealership open lots and
+  agricultural weather risk. Its UnderstoryOS platform covers broker management,
+  pricing and quoting, and automated weather-triggered claims. Understory publishes
+  no public API or developer portal; the platform is offered to insurance partners
+  rather than as a self-service developer product.'
 url: https://raw.githubusercontent.com/api-evangelist/understory/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - true-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Climate
+- Insurance
+- InsurTech
+- Weather
+- Parametric Insurance
+- Sensors
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +46,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://understoryweather.com/
+  url: https://understoryweather.com/
+- type: TermsOfService
+  url: https://understoryweather.com/terms
+- type: PrivacyPolicy
+  url: https://understoryweather.com/privacy
+- type: LLMsTxt
+  url: llms/understory-llms.txt
+- type: DomainSecurity
+  url: security/understory-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
