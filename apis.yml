@@ -32,6 +32,9 @@ description: 'Understory is an insurtech company headquartered in Madison, Wisco
   no public API or developer portal; the platform is offered to insurance partners
   rather than as a self-service developer product.'
 url: https://raw.githubusercontent.com/api-evangelist/understory/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Understory publishes no public API or developer portal; the platform is offered to insurance partners rather than as a self-service developer product."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
